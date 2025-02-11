@@ -1,0 +1,241 @@
+:root {
+	--azul-claro: #6db5d8;
+	--verde-agua: #78b0b2;
+	--rosa-claro: #ffbbc1;
+	--laranja: #ff914d;
+	--branco: #ffffff;
+}
+
+/* Estilo geral */
+body {
+	color: black;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Navbar global */
+.navbar {
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1030;
+	background-color: var(--azul-claro);
+	padding: 0.75rem 1rem;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+	font-size: 1.5rem;
+	color: var(--branco);
+	display: flex;
+	align-items: center;
+}
+
+.navbar-brand:hover {
+	color: var(--laranja);
+}
+
+.nav-link, #icon-nav {
+	color: var(--branco);
+	font-size: 1.1rem;
+	margin-left: 1rem;
+}
+
+.navbar-text, #icon-user {
+	color: var(--branco);
+}
+
+.navbar-toggler-icon {
+	color: var(--branco);
+	font-size: 1.5rem;
+	margin-left: 1rem;
+}
+
+.footer {
+	background-color: var(--azul-claro);
+	color: var(--branco);
+	text-align: center;
+	padding: 1rem 0;
+	margin-top: 2rem;
+	font-size: 0.9rem;
+}
+
+/* Estilos específicos da página Login */
+.login {
+	background-color: var(--azul-claro);
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.login .login-card {
+	background-color: var(--branco);
+	color: black;
+	border-radius: 10px;
+	padding: 2rem;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	width: 90%;
+	max-width: 400px;
+	margin: auto;
+	text-align: center;
+}
+
+.login .login-card h1 {
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+}
+
+.login .login-card .form-control {
+	border: 1px solid var(--verde-agua);
+	border-radius: 5px;
+}
+
+.login-card img {
+	width: 100px;
+	height: 100px;
+}
+
+/* Estilos da página Index */
+.index {
+	background-color: var(--branco);
+}
+
+h1.text-center {
+	font-size: 2rem;
+	color: var(--azul-claro);
+	margin-bottom: 1.5rem;
+}
+
+.linha {
+	border: 1px solid rgba(200, 199, 199, 0.8);
+	border-radius: 5px;
+	padding: 10px 5px;
+	font-size: medium;
+	text-align: center;
+}
+
+#cabecalho  div {
+	font-size: 1rem;
+	font-weight: bold;
+	color: var(--laranja);
+}
+
+.tabela-index {
+	flex: 1;
+	margin-top: 2rem;
+}
+
+.bi {
+	font-size: 1.3rem;
+	color: var(--verde-agua);
+	transition: color 0.3s;
+}
+
+.bi:hover {
+	color: var(--laranja);
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.filter .form-label {
+  margin-right: 8px;
+}
+
+.filter .form-select {
+  max-width: 250px; 
+  margin-right: 8px;
+}
+
+
+/* Modal */
+.modal-header, .modal-footer {
+	color: var(--laranja);
+}
+
+.btn-secondary {
+	background-color: var(--rosa-claro);
+	border: none;
+}
+
+.btn-danger {
+	background-color: var(--laranja);
+}
+
+/* Estilos das páginas de formulário */
+.form {
+	background-color: #f2f2f2;
+}
+
+.form-cadastro {
+	max-width: 600px;
+	margin: 2rem auto;
+	padding: 2rem;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-cadastro input, body.form .form-cadastro select, body.form .form-cadastro textarea
+	{
+	width: 100%;
+	padding: 0.75rem;
+	margin-bottom: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+/* Estilo adicional */
+.btn-primary {
+	background-color: var(--laranja);
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: #e6813b;
+}
+
+/* Estilo Consulta */
+
+.consulta-card {
+  background-color: var(--branco);
+  color: black;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-size: 1.2rem; 
+}
+
+.logo-card {
+  background-color: var(--branco);
+  color: black;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.logo-card img {
+  max-width: 80%;
+  height: auto;
+}
+
