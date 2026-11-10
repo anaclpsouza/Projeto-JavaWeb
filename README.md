@@ -99,4 +99,5 @@ Antes de iniciar, certifique-se de ter instalado:
 
 ## 📝 Licença
 
-Projeto desenvolvido para fins acadêmicos na disciplina de Laboratório de Programação II (LP2).
+Projeto desenvolvido para fins acadêmicos na disciplina de Linguagem de Programação II (LP2).
+
