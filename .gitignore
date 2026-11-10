@@ -1,0 +1,14 @@
+# Compilados e builds
+build/
+*.class
+
+# Configurações locais / IDEs
+.metadata/
+.settings/
+.classpath
+.project
+
+# Arquivos temporários do SO
+Thumbs.db
+Desktop.ini
+.DS_Store
